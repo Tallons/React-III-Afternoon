@@ -1,0 +1,149 @@
+.App{
+  height:100vh;
+  background-color:rgb(37, 37, 37);
+  display:flex;
+
+  flex-direction: column;
+ 
+}
+header{
+  background-color: cornflowerblue;
+  height:50px;
+  display: flex; align-items: center;
+  padding-left: 40px;
+font-weight: bold;
+
+}
+.databox{
+  background-color: rgb(37, 37, 37);
+  height: 300px;
+}
+
+ 
+.card-box{
+  height: 300px;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.card{
+  background-color: ghostwhite;
+  height: 250px;
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.employee-name-box{
+  height: 40px;
+  width:90%;
+  display: flex;
+  align-self:center;
+  justify-content: space-between;
+ 
+  
+}
+.employee-name{
+  font-size: 25px;
+  height: 100%;
+  width: 30%;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 2px solid lightskyblue;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 16px;
+}
+.employee-box{
+  height: 35px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+ 
+}
+.city-name{
+  width:83%;
+  height:18px;
+}
+.employee-city{
+  font-size: 16px;
+  height:18px;
+  width:7%;
+
+}
+.job-title-box{
+  height:18px;
+  display:flex;
+  align-self: center;
+  width: 90%;
+}
+.employee-job-title{
+  width:70px;
+}
+.employer-box{
+  height:18px;
+  display:flex;
+  align-self: center;
+  width: 90%;
+}
+.movie-header{
+  width: 90%;
+  height: 40px;
+  align-self: center;
+  line-height: 1.5;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+
+}
+ol{
+  width: 75%;
+  align-self: center;
+  line-height: 1.2;
+}
+.buttons-container{
+  width: 100%;
+  height:40px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.button-box{
+  width: 70%;
+  height: 28px;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+
+.selector{
+height:25px;
+background-color: rgb(37, 37, 37);
+border: 1px solid rgb(37,37,37);
+color: ghostwhite;
+font-weight: bold;
+
+}
+.edit-buttons{
+width: 25%;
+height:25px;
+display: flex;
+justify-content: space-evenly;
+
+}
+.edit{
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  color:ghostwhite;
+  font-weight: bold;
+  width: 30%
+}
